@@ -18,16 +18,22 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://everestyan.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
-description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+title   : "Everest的量子游乐场"
+description: "我在世界之巅，打了个喷嚏"
 
+text_skin: dark  # 暗黑模式启动！
+theme_color: "#5e81ac"  # 量子蓝
+keywords: "量子计算,哲学悖论,作死实验"
+
+social:
+  GitHub: EverestYan
+  Email: mailto:yan24371@stanford.edu
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
+lang: en # the language of your site, default as "en"
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
@@ -35,10 +41,10 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : Everest
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
+  bio       : I am Everest.
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
